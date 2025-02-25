@@ -8,38 +8,71 @@ Week4의 Week3의 과제를 개선해 event listener의 추가를 통해 실제 
 
 # 프로그램 계층도
 📦 assignment
+<br>
 ┣ 📂 css 
+<br>
 ┃ ┣ 📜 createPost.css 
+<br>
 ┃ ┣ 📜 editPassword.css
+<br>
 ┃ ┣ 📜 editPost.css 
+<br>
 ┃ ┣ 📜 editProfile.css 
+<br>
 ┃ ┣ 📜 index.css 
+<br>
 ┃ ┣ 📜 login.css 
+<br>
 ┃ ┣ 📜 post.css 
+<br>
 ┃ ┗ 📜 signUp.css 
+<br>
 ┃
+<br>
 ┣ 📂 js 
+<br>
 ┃ ┣ 📜 createPost.js 
+<br>
 ┃ ┣ 📜 editPassword.js 
+<br>
 ┃ ┣ 📜 editPost.js 
+<br>
 ┃ ┣ 📜 editProfile.js 
+<br>
 ┃ ┣ 📜 index.js 
+<br>
 ┃ ┣ 📜 login.js 
+<br>
 ┃ ┣ 📜 post.js 
+<br>
 ┃ ┗ 📜 signUp.js 
+<br>
 ┃
+<br>
 ┣ 📂 html 
+<br>
 ┃ ┣ 📜 createPost.html 
+<br>
 ┃ ┣ 📜 editPassword.html 
+<br>
 ┃ ┣ 📜 editPost.html 
+<br>
 ┃ ┣ 📜 editProfile.html 
+<br>
 ┃ ┣ 📜 index.html
+<br>
 ┃ ┣ 📜 login.html 
+<br>
 ┃ ┣ 📜 post.html 
+<br>
 ┃ ┗ 📜 signUp.html 
+<br>
 ┃
+<br>
 ┗ 📜 README.md
+<br>
 ┗ 📜 db.json
+<br>
 
 <br>
 <br>

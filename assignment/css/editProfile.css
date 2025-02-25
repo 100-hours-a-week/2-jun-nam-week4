@@ -1,0 +1,247 @@
+*{
+    background-color: #f4f5f7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    height: clamp(60vh, 100vh, 100vh); 
+    width: clamp(60vw, 100vw, 100vw);
+    overflow-y:auto;
+}
+
+.container h1 {
+   text-align: center;
+}
+
+.editProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    width: 100vw;
+}
+
+.editProfile #form{
+    width: 30%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 5vh;
+    margin: 1vh;
+}
+
+.header img{
+    position: absolute;
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50%;
+    margin-left: 35%;
+}
+
+.dropdown-menu{
+    display:none;
+    position: absolute;
+    top: 5vh;
+    margin-left: 30vw;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1000;
+    width: 150px;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu ul{
+    list-style: none;
+}
+
+.dropdown-menu li{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: lightgrey;
+}
+
+.dropdown-menu li a{
+    background-color: lightgrey;
+    text-decoration-line: none;
+    color: black;
+}
+
+.input-group label {
+    text-align: left;
+    display: block;
+    margin-left: -25%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-weight: bold; 
+    font-size: 1rem;
+}
+
+.input-group input{
+    width: 150%;
+    margin-left: -25%;
+    box-sizing: border-box;
+    padding: 0.5em;
+    border-width: 0.1vw;
+    border-radius: 0.5vw;
+}
+
+.input-group p {
+    font-size: 1rem;
+    margin-top: 0.5vh;
+    margin-left: -25%;
+    color: red;
+    text-align: left;
+}
+
+#email{
+    color:black;
+}
+
+.input-group #change-profile-pic{
+    width: 10%;
+}
+
+.profile-placeholder{
+    position: relative;
+    display: inline-block;
+    min-height: 10vw;
+    min-width: 10vw;
+}
+
+.profile-placeholder img{
+    min-height: 10vw;
+    min-width: 10vw;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    position: relative;
+}
+
+.profile-placeholder img:hover{
+    background-color: #E9E9E9;
+}
+
+.change-profile-pic{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 12rem;
+    opacity: 70%;
+    min-width: 30%;
+    min-height: 15%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
+}
+
+.change-profile-pic:hover{
+    filter: brightness(60%);
+    transition: filter 0.3s ease;
+}
+
+.editProfile #modify-button {
+    background-color: #ACA0EB;
+    color: white;
+    text-align: center;
+    border-color: transparent;
+    width: 150%;
+    height: 2.5vh;
+    margin-left: -25%;
+    margin-top: 0.5vh;
+    font-size: 0.8vw;
+}
+
+.editProfile #delete-account {
+    border: none;
+    outline: none;
+    background-color: inherit ;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 1vh;
+    font-size: 0.8vw;
+}
+
+.modify-complete{
+    background-color: #ACA0EB;
+    color: white;
+    text-align: center;
+    border-color: transparent;
+    border-radius: 2rem;
+    padding: 0.5vh 1.5vw 0.5vh 1.5vw;
+    margin-top: 2vh;
+}
+
+.delete-account-modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-title {
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.modal-subtitle {
+    background-color: transparent;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 16px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-buttons button {
+    width: 48%;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#deleteAccountCancelButton {
+    background-color: black;
+    color: white;
+}
+
+#deleteAccountConfirmButton {
+    background-color: #ACA0EB;
+    color: white;
+}

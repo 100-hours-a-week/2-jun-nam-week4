@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "userId": "1",
+      "email": "user@example.com",
+      "password": "Password123!",
+      "nickname": "nickname1",
+      "id": "5751"
+    },
+    {
+      "userId": "2",
+      "email": "test@test.com",
+      "password": "Test1234!",
+      "nickname": "testnickname",
+      "id": "14c6"
+    },
+    {
+      "userId": "3",
+      "email": "ddd@test.com",
+      "password": "2@Wwwwww",
+      "nickname": "wefswf",
+      "id": "6b9d"
+    }
+  ],
+  "posts": [
+    {
+      "postId": "2",
+      "title": "제목 2",
+      "content": "ㅁㅈㅎㅁㅈㄷㅎㅁㅈㅁㄴㅇㄻㅇ",
+      "author": "wefsdf",
+      "createdAt": "2025-02-22T13:45:36.526Z",
+      "likeCount": 0,
+      "commentCount": 0,
+      "viewCount": 0,
+      "id": "0a32"
+    },
+    {
+      "id": "2ae9",
+      "postId": 3,
+      "title": "ㅂㅎㅈㅇㅎㅂㅁ",
+      "content": "ㅂㅈㅇㅎㅂㄱㅂ곱ㄷ고도",
+      "author": "wefsdf",
+      "createdAt": "2025-02-22T14:11:22.372Z",
+      "likeCount": 0,
+      "commentCount": 0,
+      "viewCount": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": "2967",
+      "postId": "1",
+      "author": "wefsdf",
+      "createdAt": "2025-02-22T15:25:26.752Z",
+      "content": "ㅈㅇㄹㅈㅇㄹ"
+    },
+    {
+      "id": "6787",
+      "postId": "2",
+      "author": "wefsdf",
+      "createdAt": "2025-02-23T13:12:57.537Z",
+      "content": "ㅈㅇㄹㅈㅇㄴㄴㄴㅁㅁㄴ"
+    }
+  ]
+}
